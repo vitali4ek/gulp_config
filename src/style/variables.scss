@@ -1,0 +1,53 @@
+//backgraund-color:
+$default-bg: #ffffff;
+$color-bg: #280e27;
+
+//color:
+$primary-color: #CD0B1C;
+$secondary-color: #CE2184;
+$intermediate-color: #CD1751;
+
+$grayDark: #3C3C3C;
+$grayBase: #787878;
+$grayLight: #B4B4B4;
+$grayLighter: #F0F0F0;
+
+//gradient:
+$mainGradient: linear-gradient(90deg, $primary-color, $secondary-color);
+$mainGradientDisabled: linear-gradient(90deg, $grayBase, $grayLight);
+
+
+//font:
+$mainFont: "ProximaNova", Helvetica, Arial, sans-serif;
+$proxima: "ProximaNova", Helvetica, Arial, sans-serif;
+$lato: "Lato", Helvetica, Arial, sans-serif;
+$exo: "ExoSoft", Helvetica, Arial, sans-serif;
+
+//font-weight: 
+$hairlineWeight: 100;
+$thinWeight: 200;
+$lightWeight: 300;
+$regularWeight: 400;
+$mediumWeight: 500;
+$semiboldWeight: 600;
+$boldWeight: 700;
+$heavyWeight: 800;
+$blackWeight: 900;
+
+//transition-duration:
+$quickTransition: 0.2s;
+$normalTransition: 0.35s;
+$smoothTransition: 0.5s;
+$longTransition: 0.7s;
+$longerTransition: 1s;
+
+//cubic-basier
+$easeInCirc: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+$easeOutCirc: cubic-bezier(0.075, 0.82, 0.165, 1);
+$easeInOutCirc: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+$easeInBack: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+$easeInOutBack: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+//width:
+$maxContentWidth: 1280px;
